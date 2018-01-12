@@ -1,0 +1,7 @@
+.idea/*
+*.pyc
+cifar-10/checkpoints/*
+cifar-10/checkpoints/train/*
+cifar-10/checkpoints/valid/*
+
+
