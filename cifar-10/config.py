@@ -38,7 +38,8 @@ image_channel  = 3
 class_numbers = 10
 
 checkpoint_path = './checkpoints'
-model_checkpoint_path = join( checkpoint_path,'model.ckpt')
+model_checkpoint_path = join( checkpoint_path, 'model.ckpt')
+prior_weights = None
 train_summary_path = join( checkpoint_path, 'train' )
 valid_summary_path = join( checkpoint_path, 'valid' )
 
